@@ -1112,6 +1112,13 @@ function cameraPosition(player, button)
          yaw = 0,
          distance = 25,
       })
+   elseif button == "Five" then
+      Player[color].lookAt({
+         position = {x = 50, y = 0, z = -40},
+         pitch = 90,
+         yaw = 0,
+         distance = 25,
+      })
    elseif button == "showScenarioBoard" then
       Player[color].lookAt({
          position = {x = 0, y = 0, z = 4.5},
